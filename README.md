@@ -1,7 +1,10 @@
 # STEDI Human Balance Analytics Lakehouse Project
 
 ## Introduction
-In this project, we build a data lakehouse solution for the STEDI team using their sensor data to train a machine learning model. The STEDI team wants to use the motion sensor data to train a machine learning model to detect steps accurately in real-time. Yet, not all of the early adopters have agreed to share their data for research purposes. Since privacy is a primary consideration for the company, one of the first tasks is to ensure that data from only those customers who agree to share their Step Trainer and accelerometer data is used in the training data for the machine learning model.
+The STEDI team wants to use the motion sensor data to train a machine learning model to detect steps accurately in real-time and is in need of a data lakehouse solution. Not all of the early adopters have agreed to share their data for research purposes. Thus, the team needs a separate data store for trusted data where the customer data from the website would be sanitized and records of customers who have not agreed to share their data for research purposes excluded. In addition, the team needs a curated dataset for machine learning, which would combine the step trainer data for customers who have accelerometer data and have agreed to share their data for research with accelerometer records. 
+
+![datalake](./img/lakehouse.png)
+
 ## Data
 There are three sources of data for this project
 - *Customer data*, which includes consent to release information for research purposes. There are 956 rows in the raw JSON customers data file.
