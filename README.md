@@ -26,13 +26,9 @@ The original data is transformed into SQL tables in three different zones:
    - Glue table **machine_learning_curated** that has each of the Step Trainer Readings, and the associated accelerometer reading data for the same timestamp, but only for customers who have agreed to share their data
 
 ## Project Steps
-Step 1. AWS Glue Configuration
-  A. Configure the S3 VPC Gateway Endpoint
+AWS Glue Configuration
    - Create an S3 Bucket and load raw data into the landing subdirectory
-Step 2. 
+   - Create an S3 Gateway Endpoint to allow S3 traffic from your Glue Jobs into your S3 buckets
+   - Create the Glue Service Role in IAM and grant access to the S3 bucket and attach general Glue policy
 
-- AWS IAM
-- AWS S3
-- Python and Spark
-- AWS Glue
-- AWS Athena
+## Specifics on Data in Each Zone
