@@ -16,13 +16,13 @@ There are three JSON files:
 ## Requirements
 The original data is transformed into SQL tables in three different zones: 
 1. Landing Zone
-   - Glue tables **customer_landing**, **accelerometer_landing**, and **step_trainder_landing**
-   - Include sql scripts for the three tables
+   - Glue tables **customer_landing**, **accelerometer_landing**, and **step_trainer_landing**
+   - Include SQL scripts for the three tables
 3. Trusted Zone
    - Glue tables for **customer_trusted** and **accelerometer_trusted**
    - Verification of records in the customer_trusted glue table
 5. Curated
-   - Glue table **customers_curated** with matched records of customers who have accelometer data and have agreed to share their data for research
+   - Glue table **customers_curated** with matched records of customers who have accelerometer data and have agreed to share their data for research
    - Glue table **machine_learning_curated** that has each of the Step Trainer Readings, and the associated accelerometer reading data for the same timestamp, but only for customers who have agreed to share their data
 
 ## Project Steps
@@ -36,4 +36,3 @@ Step 2.
 - Python and Spark
 - AWS Glue
 - AWS Athena
-
