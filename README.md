@@ -13,6 +13,15 @@ There are three sources of data for this project:
 - **Data from step trainer:** A motion sensor that records the distance of the object detected. The step trainer file contains 28,680 rows.
 - **Accelerometer data:** Uses a mobile phone accelerometer to detect motion in the X, Y, and Z directions. The accelerometer file has 81,273 rows.
 
+## Requirements
+The original data is transformed into SQL tables in three different zones: 
+1. Landing
+2. Trusted
+3. Curated
+
+## Steps
+1. Prepare
+
 ## Tools
 The following AWS tools are used in this project:
 - AWS IAM
@@ -21,11 +30,3 @@ The following AWS tools are used in this project:
 - AWS Glue
 - AWS Athena
 
-## Steps
-1. Prepare
-
-## Outcome
-As a result of the above steps, the original data is transformed into SQL tables in three different zones: 
-1. Landing
-2. Trusted
-3. Curated
