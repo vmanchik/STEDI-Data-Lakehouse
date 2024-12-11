@@ -31,4 +31,4 @@ AWS Glue Configuration
    - Create an S3 Gateway Endpoint to allow S3 traffic from your Glue Jobs into your S3 buckets
    - Create the Glue Service Role in IAM and grant access to the S3 bucket and attach general Glue policy
 
-## Specifics on Data in Each Zone
+## Data in Each Zone
