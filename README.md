@@ -27,8 +27,12 @@ The original data is transformed into SQL tables in three different zones:
 
 ## Project Steps
 AWS Glue Configuration
-   - Create an S3 Bucket and load raw data into the landing subdirectory
+   - Create an S3 Bucket and load raw data into the landing subdirectory.
+      - Use CloudShell and enter the following command: aws s3 mb s3://your-bucket-name
    - Create an S3 Gateway Endpoint to allow S3 traffic from your Glue Jobs into your S3 buckets
+     - Describe vpcs: aws ec2 describe-vpcs
+     - Describe routing table: aws ec2 describe-route-tables
+     - Create an S3 gateway endpoint: aws ec2 create-vpc-endpoint --vpc-id _______ --service-name com.amazonaws.us-west-2.s3 --route-table-ids _______
    - Create the Glue Service Role in IAM and grant access to the S3 bucket and attach general Glue policy
 
 ## Data in Each Zone
