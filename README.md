@@ -73,8 +73,12 @@ Contains the following fields:
 #### **4. Glue table customer_landing:**
 ![customer_landing](./images/customer_landing_glue_table.png)
 
+![count_customer_landing](./images/count_customer_landing_glue_table.png)
+
 #### **5. Glue table accelerometer_landing:**
 ![accelerometer_landing](./images/accelerometer_landing_glue_table.png)
+
+![count_accelerometer_landing](./images/count_accelerometer_landing_glue_table.png)
 
 ### Trusted Zone
 #### **1. Glue table customer_trusted:**
@@ -85,4 +89,6 @@ Contains the following fields:
 ### Curated Zone
 #### **1. Glue table customer_curated:**
 ![customer_curated](./images/customer_curated_glue_table.png)
+#### **2. Glue table machine_learning_curated:**
+![machine_learning_curated](./images/machine_learning_curated_glue_table.png)
 
