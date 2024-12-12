@@ -70,8 +70,14 @@ Contains the following fields:
 - y
 - z
   
-#### **4. Glue table customer_landing :**
+#### **4. Glue table customer_landing:**
 ![customer_landing](./images/customer_landing_glue_table.png)
 
-#### **5. Glue table accelerometer_landing :**
+#### **5. Glue table accelerometer_landing:**
 ![accelerometer_landing](./images/accelerometer_landing_glue_table.png)
+
+### Trusted Zone
+#### **1. Glue table customer_trusted:**
+![customer_trusted](./images/customer_trusted_glue_table.png)
+#### **2. Glue table accelerometer_trusted:**
+![customer_trusted](./images/customer_trusted_glue_table.png)
