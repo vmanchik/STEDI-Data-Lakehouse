@@ -74,4 +74,4 @@ Contains the following fields:
 ![customer_landing](./images/customer_landing_glue_table.png)
 
 #### **5. Glue table accelerometer_landing :**
-![customer_landing](./images/accelerometer_landing_glue_table.png)
+![accelerometer_landing](./images/accelerometer_landing_glue_table.png)
