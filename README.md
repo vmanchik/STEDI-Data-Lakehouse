@@ -1,7 +1,7 @@
 # STEDI Human Balance Analytics Lakehouse Project
 
 ## Introduction
-The STEDI team wants to use motion sensor data to train a machine learning model to accurately detect steps in real-time. They require a data lakehouse solution. Not all early adopters have agreed to share their data, so the team needs a scalable and flexible architecture to handle varying data sources and volumes.
+The STEDI team wants to use motion sensor data to train a machine learning model to accurately detect steps in real-time. They require a data lakehouse solution. Not all early adopters have agreed to share their data, so the team needs a scalable and flexible architecture to handle varying data sources and volumes. The team wants both the source and destination files reside on an S3 bucket with different subderectories for raw data files, trusted data files, and final curated data files.
 
 The diagram below demonstrates the lakehouse architecture.
 
