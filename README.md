@@ -36,3 +36,36 @@ AWS Glue Configuration
    - Create the Glue Service Role in IAM and grant access to the S3 bucket and attach general Glue policy
 
 ## Data in Each Zone
+### Landind Zone
+#### **1. Customer Records (from the website)**
+
+Contains the following fields:
+
+- serialnumber
+- sharewithpublicasofdate
+- birthday
+- registrationdate
+- sharewithresearchasofdate
+- customername
+- email
+- lastupdatedate
+- phone
+- sharewithfriendsasofdate
+
+#### **2. Step Trainer Records (data from the motion sensor):**
+
+Contains the following fields:
+
+- sensorReadingTime
+- serialNumber
+- distanceFromObject
+
+#### **3. Accelerometer Records (from the mobile app):**
+
+Contains the following fields:
+
+- timeStamp
+- user
+- x
+- y
+- z
