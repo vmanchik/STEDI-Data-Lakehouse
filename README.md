@@ -69,3 +69,9 @@ Contains the following fields:
 - x
 - y
 - z
+  
+#### **4. Glue table customer_landing :**
+![customer_landing](./images/customer_landing_glue_table.png)
+
+#### **5. Glue table accelerometer_landing :**
+![customer_landing](./images/accelerometer_landing_glue_table.png)
