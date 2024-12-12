@@ -81,3 +81,8 @@ Contains the following fields:
 ![customer_trusted](./images/customer_trusted_glue_table.png)
 #### **2. Glue table accelerometer_trusted:**
 ![customer_trusted](./images/customer_trusted_glue_table.png)
+
+### Curated Zone
+#### **1. Glue table customer_curated:**
+![customer_curated](./images/customer_curated_glue_table.png)
+
