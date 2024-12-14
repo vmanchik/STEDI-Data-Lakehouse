@@ -85,9 +85,9 @@ Contains the following fields:
 
 ![count_step_trainer_landing](./images/count_step_trainer_landing_glue_table.png)
 
-
-
 ### Trusted Zone
+
+
 #### **1. Glue table customer_trusted:**
 ![customer_trusted](./images/customer_trusted_glue_table.png)
 #### **2. Glue table accelerometer_trusted:**
