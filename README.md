@@ -36,7 +36,7 @@ AWS Glue Configuration
    - Create the Glue Service Role in IAM and grant access to the S3 bucket and attach general Glue policy
 
 ## Data in Each Zone
-### Landind Zone
+### Landing Zone
 #### **1. Customer Records (from the website)**
 
 Contains the following fields:
