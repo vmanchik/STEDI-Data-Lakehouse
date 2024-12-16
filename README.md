@@ -71,27 +71,22 @@ Contains the following fields:
 - z
   
 #### **4. Glue table customer_landing:**
-![customer_landing](./images/customer_landing_glue_table.png)
-
-![count_customer_landing](./images/count_customer_landing_glue_table.png)
+![customer_landing](./images/glue_table_customer_landing.png)
 
 #### **5. Glue table accelerometer_landing:**
-![accelerometer_landing](./images/accelerometer_landing_glue_table.png)
-
-![count_accelerometer_landing](./images/count_accelerometer_landing_glue_table.png)
+![accelerometer_landing](./images/glue_table_accelerometer_landing.png)
 
 #### **6. Glue table step_trainer_landing:**
-![step_trainer_landing](./images/step_trainer_landing_glue_table.png)
+![step_trainer_landing](./images/glue_table_step_trainer_landing.png)
 
-![count_step_trainer_landing](./images/count_step_trainer_landing_glue_table.png)
 
 ### Trusted Zone
 
 
 #### **1. Glue table customer_trusted:**
-![customer_trusted](./images/customer_trusted_glue_table.png)
+![customer_trusted](./images/glue_table_customer_trusted.png)
 #### **2. Glue table accelerometer_trusted:**
-![customer_trusted](./images/customer_trusted_glue_table.png)
+![customer_trusted](./images/glue_table_accelerometer_trusted.png)
 
 ### Curated Zone
 #### **1. Glue table customer_curated:**
