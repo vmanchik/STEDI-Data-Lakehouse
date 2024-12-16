@@ -92,7 +92,7 @@ Contains the following fields:
 
 ### Curated Zone
 #### **1. Glue table customer_curated:**
-![customer_curated](./images/glue_table_cutomer_curated.png)
+![customer_curated](./images/glue_table_customer_curated.png)
 #### **2. Glue table machine_learning_curated:**
-![machine_learning_curated](./images/glue_table_machine_learning_curated.png)
+![machine_learning_curated](./images/glue_table_machine_learning.png)
 
