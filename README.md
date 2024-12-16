@@ -87,10 +87,12 @@ Contains the following fields:
 ![customer_trusted](./images/glue_table_customer_trusted.png)
 #### **2. Glue table accelerometer_trusted:**
 ![customer_trusted](./images/glue_table_accelerometer_trusted.png)
+#### **3. Glue table step_trainer_trusted:**
+![step_trainer_trusted](./images/glue_table_step_trainer_trusted.png)
 
 ### Curated Zone
 #### **1. Glue table customer_curated:**
-![customer_curated](./images/customer_curated_glue_table.png)
+![customer_curated](./images/glue_table_cutomer_curated.png)
 #### **2. Glue table machine_learning_curated:**
-![machine_learning_curated](./images/machine_learning_curated_glue_table.png)
+![machine_learning_curated](./images/glue_table_machine_learning_curated.png)
 
