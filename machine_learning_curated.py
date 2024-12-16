@@ -34,8 +34,8 @@ on accelerometer_trusted.timestamp = step_trainer_trusted.sensorreadingtime
 SQLQuery_node1734345936733 = sparkSqlQuery(glueContext, query = SqlQuery0, mapping = {"step_trainer_trusted":step_trainer_trusted_node1734345841034, "accelerometer_trusted":accelerometer_trusted_node1734345843797}, transformation_ctx = "SQLQuery_node1734345936733")
 
 # Script generated for node Amazon S3
-AmazonS3_node1734346749201 = glueContext.getSink(path="s3://udacity-stedi/", connection_type="s3", updateBehavior="UPDATE_IN_DATABASE", partitionKeys=[], compression="snappy", enableUpdateCatalog=True, transformation_ctx="AmazonS3_node1734346749201")
-AmazonS3_node1734346749201.setCatalogInfo(catalogDatabase="stedi",catalogTableName="machine_learning_curated")
-AmazonS3_node1734346749201.setFormat("json")
-AmazonS3_node1734346749201.writeFrame(SQLQuery_node1734345936733)
+AmazonS3_node1734348531941 = glueContext.getSink(path="s3://udacity-stedi/machine_learning/", connection_type="s3", updateBehavior="UPDATE_IN_DATABASE", partitionKeys=[], enableUpdateCatalog=True, transformation_ctx="AmazonS3_node1734348531941")
+AmazonS3_node1734348531941.setCatalogInfo(catalogDatabase="stedi",catalogTableName="machine_learning_curated")
+AmazonS3_node1734348531941.setFormat("glueparquet", compression="snappy")
+AmazonS3_node1734348531941.writeFrame(SQLQuery_node1734345936733)
 job.commit()
