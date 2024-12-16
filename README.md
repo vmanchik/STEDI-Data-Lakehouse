@@ -96,3 +96,7 @@ Contains the following fields:
 #### **2. Glue table machine_learning_curated:**
 ![machine_learning_curated](./images/glue_table_machine_learning.png)
 
+### Counts by Zone
+The image below serves to validate record counts for each of the table.
+![counts by zone](./images/counts_by_zone.png)
+
